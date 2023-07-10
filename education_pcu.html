@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1">
+    <title>Mendrez Sem - Home</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- REMIX ICONS -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+    <a href="index.html" class="logo">Mendrez<span>Sem.</span></a>
+
+    <ul class="navigation-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="exp_igt.html">Experience</a></li>
+        <li><a href="#" class="active">Education</a></li>
+        <li><a href="certification.html">Certification</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+    </ul>
+
+    <div class="top-button">
+        <a href="#" class="contact-me-btn">Contact me</a>
+    </div>
+</header>
+<!-- CONTENT -->
+    <section class="main-section">
+      <div class="main-content">
+        <h4 class="first-h4">Education</h4>
+        <h1>
+          <span class="input"></span>
+        </h1>
+        <div class="slide-container">
+          <h5>
+            <span class="education-pcu">TVL Computer Programming </span>
+            <span>| Aug 2018 - Jun 2019</span>
+          </h5>
+          <br>
+          <h5>
+            <span class="school-pcu">Philippine Christian University </span>
+            <span class="at">-</span>
+            <span class="campus-pcu"> Dasmariñas Campus</span>
+          </h5><br>
+          <p>During the period from August 2018 to June 2019, I pursued my studies in Computer Programming at TVL (Technical Vocational Livelihood) in the Philippine Christian University, Dasmariñas Campus. This educational program focused on equipping students with essential skills and knowledge in the field of computer programming. </p>
+          <p>As a Grade 11 student, I engaged in a comprehensive curriculum that provided a solid foundation in various programming languages and concepts. Throughout the course, I gained practical experience in software development, coding techniques, and problem-solving strategies.</p>
+          <p>My educational background in Computer Programming at TVL, Philippine Christian University, Dasmariñas Campus, has provided me with a solid foundation in the field. I am equipped with the necessary skills and knowledge to pursue a career in software development or further my education in the field of computer science.</p>
+        </div>
+      </div>
+    </section>
+    <div class="indicator">
+        <a class="btn-active"></a>
+        <a class="" href="education_lyf.html"></a>
+        <a class="" href="education_cvsu.html"></a>
+      </div>
+
+
+      <script src="assets/js/main.js"></script>
+
+      <script>
+      // Get the button that triggers the email redirect
+      var btn = document.getElementsByClassName("contact-me-btn")[0];
+  
+      // When the user clicks the button, redirect to Gmail with the recipient pre-filled
+      btn.onclick = function() {
+          var recipientEmail = "mendrezsem16@gmail.com"; // Replace with the actual email address of the website owner
+          var subject = "Contact - Mendrez Sem";
+  
+          // Construct the mailto URL
+          var mailtoUrl = "mailto:" + encodeURIComponent(recipientEmail) +
+              "?subject=" + encodeURIComponent(subject);
+  
+          // Redirect to the mailto URL
+          window.location.href = mailtoUrl;
+      };
+  </script>
+  
+  
+      <!-- TYPED JS -->
+      <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      <!-- TYPED JS MAIN CODE -->
+      <script>
+        var typed = new Typed(".input", {
+          strings: ["Java", "C++", "Introduction to", "Programming"],
+          typeSpeed: 70,
+          backSpeed: 65,
+          loop: true
+        })
+      </script>
+</body>
+</html>
