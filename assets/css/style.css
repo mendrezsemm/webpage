@@ -107,6 +107,194 @@ section .main-section{
     font-size: var(--h4-font);
 }
 
+.igt-logo {
+    position: absolute;
+    margin: 0 0 0 1000px;
+    padding-top: 15px;
+    animation: reveal 0.5s ease-in-out forwards;
+}
+
+.conduent-logo {
+    width: 595px;
+    position: absolute;
+    margin: 0 0 0 930px;
+    padding-top: 220px;
+    animation: reveal 0.5s ease-in-out forwards;
+}
+
+.foundever-logo {
+    width: 595px;
+    position: absolute;
+    margin: 0 0 0 930px;
+    padding-top: 220px;
+    animation: reveal 0.5s ease-in-out forwards;
+}
+
+@keyframes reveal {
+            from {
+                transform: translateY(-50%);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+
+.main-content h5 {
+    margin-bottom: -15px;
+    font-size: 18px;
+}
+
+.h5-1st {
+        animation: reveal2 0.3s ease-in-out forwards;
+}
+
+@keyframes reveal2 {
+            from {
+                transform: translateX(-10%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
+
+.h5-2nd {
+        animation: reveal3 0.6s ease-in-out forwards;
+}
+
+@keyframes reveal3 {
+            from {
+                transform: translateX(-10%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }        
+
+.p1 {
+        animation: reveal4 0.9s ease-in-out forwards;
+}
+
+@keyframes reveal4 {
+            from {
+                transform: translateX(-10%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }       
+
+.p2 {
+        animation: reveal5 1.2s ease-in-out forwards;
+}
+
+@keyframes reveal5 {
+            from {
+                transform: translateX(-10%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }  
+
+.p3 {
+        animation: reveal6 1.5s ease-in-out forwards;
+}
+
+@keyframes reveal6 {
+            from {
+                transform: translateX(-10%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }               
+
+.main-content .company-igt {
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.main-content .company-igt:hover {
+    color: #f05a28;
+}
+
+.main-content .company-conduent {
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.main-content .company-conduent:hover {
+    color: #f05a28;
+}
+
+.main-content .company-foundever {
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.main-content .company-foundever:hover {
+    color: #f05a28;
+}
+
+.main-content .position-igt {
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.main-content .position-igt:hover {
+    color: var(--main-color);
+}
+
+.main-content .position-conduent {
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.main-content .position-conduent:hover {
+    color: var(--main-color);
+}
+
+.main-content .position-foundever {
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.main-content .position-foundever:hover {
+    color: var(--main-color);
+}
+
+.main-content .at {
+    cursor: default;
+    color: #fff;
+}
+
+.main-content .account-igt {
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.main-content .account-igt:hover {
+    color: #34a991;
+}
+
+.main-content .account-conduent {
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.main-content .account-conduent:hover {
+    color: #34a991;
+}
+
+.main-content .account-foundever {
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.main-content .account-foundever:hover {
+    color: #34a991;
+}
+
 .main-content h1 {
     font-size: var(--big-font);
     font-weight: 900;
@@ -253,4 +441,36 @@ section .main-section{
 
 .main-button button:hover {
     transform: scale(1.1);
+}
+
+.indicator {
+    top: 900px;
+    position: fixed;
+    left: 305px;
+    animation: reveal1 0.5s ease-in-out forwards;
+}
+
+@keyframes reveal1 {
+            from {
+                transform: translateY(150%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
+
+.indicator a {
+    border: none;
+    outline: none;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin: 4px;
+    border-radius: 15px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.indicator .btn-active {
+    width: 45px;
 }

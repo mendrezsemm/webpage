@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" , initial-scale="1">
+    <title>Mendrez Sem - Home</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- REMIX ICONS -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <a href="#" class="logo">Mendrez <span>Sem.</span>
+      </a>
+      <ul class="navigation-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="" class="active">Experience</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="certification.html">Certification</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+      </ul>
+      <div class="top-button">
+        <a href="#" class="contact-me-btn">Contact me</a>
+      </div>
+    </header>
+    <!-- CONTENT -->
+    <section class="main-section">
+      <div class="main-content">
+        <h4 class="first-h4">Experience</h4>
+        <h1>
+          <span class="input"></span>
+        </h1>
+        <div id="div-to-be-changed" class="slide-container">
+            <img class="conduent-logo" src="assets/img/conduent_logo.png">
+          <h5 class="h5-1st">
+            <span class="company-conduent">Conduent </span>
+            <span>| Nov 2022 - Jun 2023</span>
+          </h5>
+          <br>
+          <h5 class="h5-2nd">
+            <span class="position-conduent">Customer Experience Associate II </span>
+            <span class="at">at</span>
+            <span class="account-conduent"> H&R Block</span>
+          </h5>
+          <p class="p1">As a Customer Experience Associate II at Conduent, I had the opportunity to work with one of the prominent accounts,
+H&R Block. Being part of the 1st Batch, I was responsible for providing exceptional customer service and support
+primarily through chat channels.
+ </p>
+          <p class="p2"> In this role, I utilized my strong communication skills and in-depth knowledge of H&R Block products and services to
+assist customers with their tax-related inquiries and concerns. I developed a deep understanding of the tax preparation
+process, tax software, and relevant policies and procedures. </p>
+          <p class="p3"> Overall, my experience as a Customer Experience Associate II/Chat Support and SME at Conduent equipped me with
+strong customer service skills, a solid understanding of tax-related processes, and the ability to thrive in a remote work
+environment. </p>
+        </div>
+      </div>
+    </section>
+          <div class="indicator">
+        <a class="" href="exp_igt.html"></a>
+        <a class="btn-active" href=""></a>
+        <a class="" href="exp_foundever.html"></a>
+      </div>
+
+      <script>
+    // Get the button that triggers the email redirect
+    var btn = document.getElementsByClassName("contact-me-btn")[0];
+
+    // When the user clicks the button, redirect to Gmail with the recipient pre-filled
+    btn.onclick = function() {
+        var recipientEmail = "mendrezsem16@gmail.com"; // Replace with the actual email address of the website owner
+        var subject = "Contact - Mendrez Sem";
+
+        // Construct the mailto URL
+        var mailtoUrl = "mailto:" + encodeURIComponent(recipientEmail) +
+            "?subject=" + encodeURIComponent(subject);
+
+        // Redirect to the mailto URL
+        window.location.href = mailtoUrl;
+    };
+</script>
+
+    <!-- TYPED JS -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- TYPED JS MAIN CODE -->
+    <script>
+      var typed = new Typed(".input", {
+        strings: ["Customer", "Experience", "Associate", "Conduent", "H&R Block","SME","Chat Support"],
+        typeSpeed: 70,
+        backSpeed: 65,
+        loop: true
+      })
+    </script>
+  </body>
+</html>
